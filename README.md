@@ -1,13 +1,13 @@
 # Unity Pickup Truck with Local LLM Control
 
-![Project Screenshot](ControlPickupTruckWithLLM/picture.png)
+![Project Screenshot](picture.png)
 
 🎥 Demo Video: https://www.youtube.com/watch?v=FbKYlDyITbU
 
 A simple Unity driving project where a pickup truck can be controlled in two ways:
 
 - manually with keyboard input
-- through natural language commands sent to a **local LLM server**
+- through natural language commands sent to a local LLM server
 
 Example commands:
 
@@ -35,10 +35,10 @@ The game sends the text command to a local model endpoint, gets back structured 
 
 This project combines:
 
-- **Unity 6 / URP**
-- a **pickup truck vehicle setup**
-- a **simple in-game chat UI**
-- a **local LLM server** compatible with the OpenAI-style `/v1/chat/completions` API
+- Unity 6 / URP
+- a pickup truck vehicle setup
+- a simple in-game chat UI
+- a local LLM server compatible with the OpenAI-style `/v1/chat/completions` API
 
 The Unity game sends the player's text prompt to the local model, parses the model response, and executes the resulting movement commands.
 
