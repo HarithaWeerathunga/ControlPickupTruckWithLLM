@@ -1,5 +1,9 @@
 # Unity Pickup Truck with Local LLM Control
 
+![Project Screenshot](ControlPickupTruckWithLLM/picture.png)
+
+🎥 Demo Video: https://www.youtube.com/watch?v=FbKYlDyITbU
+
 A simple Unity driving project where a pickup truck can be controlled in two ways:
 
 - manually with keyboard input
